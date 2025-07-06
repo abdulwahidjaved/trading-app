@@ -32,12 +32,12 @@ const Skeleton = () => (
 );
 const items = [
   {
-    title: "The Dawn of Innovation",
-    description: "Explore the birth of groundbreaking ideas and inventions.",
+    title: "Easy UPI Services",
+    description: "All UPI services available with ease of cashout.",
     header: (
       <div className="relative h-48 w-full">
         <Image
-          src="/shield.png"
+          src="/online-payments.png"
           alt="Design"
           fill
           className="object-cover rounded-xl"
@@ -49,8 +49,8 @@ const items = [
   },
 
   {
-    title: "The Digital Revolution",
-    description: "Dive into the transformative power of technology.",
+    title: "Secured Transaction",
+    description: "Guarantee of instant money and secure transaction.",
     header:  (
       <div className="relative h-48 w-full">
         <Image
@@ -65,8 +65,8 @@ const items = [
   icon: <IconFileBroken className="h-4 w-4 text-neutral-500" />,
   },
 {
-  title: "The Art of Design",
-    description: "Discover the beauty of thoughtful and functional design.",
+  title: "Full-proof Investment",
+    description: "Secure investment with easy returns.",
       header: (
       <div className="relative h-48 w-full">
         <Image
@@ -81,10 +81,19 @@ const items = [
           icon: <IconSignature className="h-4 w-4 text-neutral-500" />,
   },
 {
-  title: "The Power of Communication",
+  title: "24/7 Cutomer Support.",
     description:
-  "Understand the impact of effective communication in our lives.",
-    header: <Skeleton />,
+  "Easy and Fast Customer Support",
+    header: (
+      <div className="relative h-48 w-full">
+        <Image
+          src="/capture.PNG"
+          alt="Design"
+          fill
+          className="object-cover rounded-xl"
+        />
+      </div>
+    ),
       className: "md:col-span-2",
         icon: <IconTableColumn className="h-4 w-4 text-neutral-500" />,
   },
